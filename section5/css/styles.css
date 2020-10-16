@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Montserrat&family=Staatliches&display=swap");
+/* SCSS RGB */
+/* SCSS Gradient */
+html, body {
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  position: fixed;
+  padding: 1rem;
+}
+.navbar .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.1rem;
+}
+.navbar .navbar-brand {
+  font-family: "Jockey One", sans-serif;
+}
+.navbar .social-links {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  display: block;
+  place-items: center;
+}
+.navbar .social-links a {
+  color: #011627;
+}
+.navbar .social-links .fa-linkedin-in:hover {
+  color: #0077b5;
+}
+.navbar .social-links .fa-twitter:hover {
+  color: #1DA1F2;
+}
+.navbar .social-links .fa-medium-m:hover {
+  color: white;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  border-color: red;
+}
+
+.landingContainer {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e3e3e3;
+}
+.landingContainer h2 {
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+}
+
+.aboutContainer {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e18514;
+}
+
+.estimateContainer {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f9f224;
+}
+
+.contactContainer {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  background-color: #edbc1c;
+}
+
+@media (max-width: 575.98px) {
+  .mainContent {
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: 5rem;
+  }
+
+  .navbar-brand span {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mainContent {
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: 5rem;
+  }
+
+  .navbar-brand span {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mainContent {
+    margin: 0 2rem;
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mainContent {
+    margin: 0 5rem;
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .mainContent {
+    margin: 0 5rem;
+    padding-top: 5rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
